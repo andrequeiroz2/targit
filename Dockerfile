@@ -17,7 +17,7 @@ RUN pip install --upgrade pip &&\
 COPY . .
 
 #port
-EXPOSE 5000
+EXPOSE 80
 
 #run gnicorn
-CMD ["gunicorn", "-w", "4", "--bind", "0.0.0.0:5000", "website:create_app()"]
+CMD ["gunicorn", "-w", "4", "--bind", "0.0.0.0:80", "website:create_app()"]

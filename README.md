@@ -23,5 +23,5 @@ docker pull andrequeiroz2/targit:latest
 ### run image
 
 ```
-docker run -it -p 5000:5000 andrequeiroz2/targit:latest
+docker run -it -p 80:80 andrequeiroz2/targit:latest
 ```
