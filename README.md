@@ -25,3 +25,6 @@ docker pull andrequeiroz2/targit:latest
 ```
 docker run -it -p 80:80 andrequeiroz2/targit:latest
 ```
+
+### cloud
+http://174.138.109.34
