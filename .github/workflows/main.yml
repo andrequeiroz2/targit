@@ -46,4 +46,4 @@ jobs:
           push: true
           tags: |
             andrequeiroz2/targit:latest 
-            andrequeiroz2/targit:${{github.run_number}}
+            andrequeiroz2/targit:v${{github.run_number}}
