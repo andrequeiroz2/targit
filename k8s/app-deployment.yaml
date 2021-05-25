@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: targit
+spec:
+  selector:
+    matchLabels:
+      app: targit
+  template:
+    metadata:
+      labels:
+        app: targit
+    spec:
+      containers:
+      - name: targit
+        image: andrequeiroz2/targit:cloud
+        ports:
+          - containerPort: 80
+            name: http
+        imagePullPolicy: Always
